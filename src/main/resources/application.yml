@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5670
+    publisher-confirms: true
+    virtual-host: /
+setting:
+  mq:
+    exchange: mq-exchange
+    queue: mq-queue
+    routingKey: mq-key
+server:
+  port: 8081
